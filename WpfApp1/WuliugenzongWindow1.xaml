@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.WuliugenzongWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="WuliugenzongWindow1" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="243*"/>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="103*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="113*"/>
+            <RowDefinition Height="234*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="58*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF1B9299" HorizontalAlignment="Stretch" Height="120" Stroke="Black" VerticalAlignment="Center" Margin="0,-9,-0.4,1.8" Grid.ColumnSpan="5"/>
+        <Image Source="Images/1.png" HorizontalAlignment="Left" Height="114" Margin="10,-8,0,6.8" VerticalAlignment="Center" Width="100"/>
+        <Label Content="欢迎使用图书销售分析系统" HorizontalAlignment="Center" Margin="37.8,32,73.127,32.8" VerticalAlignment="Center" FontSize="36" FontFamily="Gill Sans MT Ext Condensed Bold" Height="48" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <Button Content="查看发货物流" HorizontalAlignment="Center" Margin="0" Grid.Row="2" VerticalAlignment="Center" Width="75" Grid.Column="1" Click="Button_Click"/>
+        <Button Content="查看收货物流" HorizontalAlignment="Center" Margin="0" Grid.Row="2" VerticalAlignment="Center" Width="75" Grid.Column="2" Click="Button_Click_1"/>
+        <Button Content="返回" HorizontalAlignment="Center" Margin="0" Grid.Row="2" VerticalAlignment="Center" Width="75" Grid.Column="3" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

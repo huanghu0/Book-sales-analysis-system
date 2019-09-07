@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApp1.GoumaiWindow1"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="订货" Height="450" Width="450" ResizeMode="NoResize"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <!--图书列表查询-->
+        <Label Content="图书列表" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="10 0 0 0" VerticalAlignment="Center" FontSize="20"/>
+        <TextBox   Name="TextSelected" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" MinWidth="150"  Margin="-50 0 0 0" VerticalAlignment="Center"/>
+        <Button Content="下单" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" MinWidth="100" Margin="0 0 60 0" VerticalAlignment="Center" Click="Button_Click_1"/>
+        <!--图书列表-->
+        <ScrollViewer Grid.Column="0" Grid.Row="1">
+            <StackPanel>
+                <WrapPanel>
+                    <Image Source="Images/java入门.jpg" MaxHeight="80" MaxWidth="80" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="图书名称:JAVA核心技术" VerticalAlignment="Top"/>
+                    <Label Content="出版社:机械工业出版社" VerticalAlignment="Top" Margin="-107 20 0 0"/>
+                    <Label Content="库存量:100" VerticalAlignment="Top" Margin="-132 40 0 0 " RenderTransformOrigin="0.274,0.788"/>
+                    <Label Content="价格:￥67.6" VerticalAlignment="Top" Margin="-132 60 0 0 "/>
+                    <CheckBox VerticalAlignment="Center" Margin="100 0 0 0"/>
+                </WrapPanel>
+                <WrapPanel>
+                    <Image Source="Images/C++.jpg" MaxHeight="80" MaxWidth="80" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="图书名称:C++入门" VerticalAlignment="Top" RenderTransformOrigin="0.803,0.632" Width="113"/>
+                    <Label Content="出版社:机械工业出版社" VerticalAlignment="Top" Margin="-107 20 0 0"/>
+                    <Label Content="库存量:1000" VerticalAlignment="Top" Margin="-132 40 0 0 " RenderTransformOrigin="0.274,0.788"/>
+                    <Label Content="价格:￥100" VerticalAlignment="Top" Margin="-132 60 0 0 "/>
+                    <CheckBox VerticalAlignment="Center" Margin="100 0 0 0"/>
+                </WrapPanel>
+                <WrapPanel>
+                    <Image Source="Images/java入门.jpg" MaxHeight="80" MaxWidth="80" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="图书名称:java入门" VerticalAlignment="Top"/>
+                    <Label Content="出版社:机械工业出版社" VerticalAlignment="Top" Margin="-107 20 0 0"/>
+                    <Label Content="库存量:1000" VerticalAlignment="Top" Margin="-132 40 0 0 " RenderTransformOrigin="0.274,0.788"/>
+                    <Label Content="价格:￥100" VerticalAlignment="Top" Margin="-132 60 0 0 "/>
+                    <CheckBox VerticalAlignment="Center" Margin="100 0 0 0"/>
+                </WrapPanel>
+                <WrapPanel>
+                    <Image Source="Images/C++.jpg" MaxHeight="80" MaxWidth="80" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="图书名称:C++入门" VerticalAlignment="Top" Width="115"/>
+                    <Label Content="出版社:机械工业出版社" VerticalAlignment="Top" Margin="-107 20 0 0"/>
+                    <Label Content="库存量:1000" VerticalAlignment="Top" Margin="-132 40 0 0 " RenderTransformOrigin="0.274,0.788"/>
+                    <Label Content="价格:￥100" VerticalAlignment="Top" Margin="-132 60 0 0 "/>
+                    <CheckBox VerticalAlignment="Center" Margin="100 0 0 0"/>
+                </WrapPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <!--返回和下单-->
+        <Button Content="返回" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" MinWidth="200" MinHeight="30" Margin="121,6.4,0,6" Click="Button_Click" Width="223"/>
+    </Grid>
+</Window>

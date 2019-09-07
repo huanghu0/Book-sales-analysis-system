@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp1.chooseUserTypeWindow1"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             d:DesignWidth="833" Height="450" Width="800"
+            ResizeMode="NoResize"
+            WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="76*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="215*"/>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="16*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FF1B9299" HorizontalAlignment="Center" Height="100" Stroke="Black" VerticalAlignment="Top" Width="826" Grid.ColumnSpan="7" Grid.RowSpan="3" Margin="-16,0,-15.6,0"/>
+        <Image Source="images/1.png" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="10,10,0,0" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Label Content="欢迎使用图书销售分析系统" HorizontalAlignment="Center" Margin="69,10,37,10.5" VerticalAlignment="Center" FontSize="36" Grid.Column="2" Grid.ColumnSpan="3" Height="59" Width="472"/>
+        <Image HorizontalAlignment="Left" Height="180" Margin="95.8,20.8,0,0" Grid.Row="3" VerticalAlignment="Top" Width="140" Grid.RowSpan="2" Grid.Column="2"/>
+        <Image Source="images/用户.png" HorizontalAlignment="Center" Height="97" Margin="87.8,21.8,57.4,89.2" Grid.Row="2" VerticalAlignment="Center" Width="122" Grid.Column="2" Grid.RowSpan="2"/>
+        <Image Source="images/用户 (2).png" HorizontalAlignment="Center" Height="98" Margin="95.8,20.8,65.4,89.2" Grid.Row="3" VerticalAlignment="Center" Width="106" Grid.Column="2" Grid.RowSpan="2"/>
+        <Image Source="images/用户 (1).png" HorizontalAlignment="Center" Height="100" Margin="93.8,22.8,63.4,2" Grid.Row="4" VerticalAlignment="Center" Width="110" Grid.Column="2" Grid.RowSpan="2"/>
+        <Button Content="管理员" Grid.Column="3" HorizontalAlignment="Center" Margin="113.6,39.8,82.6,19.2" Grid.Row="2" VerticalAlignment="Center" Width="115" Height="45" FontSize="16" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button Content="代理商/营销商" Grid.Column="3" HorizontalAlignment="Center" Margin="113.6,34.8,82.6,14.2" Grid.Row="3" VerticalAlignment="Center" Width="115" RenderTransformOrigin="-0.133,0" Height="55" FontSize="16" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="买家" Grid.Column="3" HorizontalAlignment="Center" Margin="113.6,36.8,82.6,17.2" Grid.Row="4" VerticalAlignment="Center" Width="115" Height="50" FontSize="16" Grid.ColumnSpan="2" Click="Button_Click_4"/>
+        <Button Content="关于我们" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="9.4,60,0,0.2" Width="75" Background="#00FFF9F9" Click="Button_Click_3" Grid.RowSpan="2"/>
+        <Button Content="退出" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15.4,68,5.6,0" Width="75" Background="#00FFF9F9" Click="Button_Click_2" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>

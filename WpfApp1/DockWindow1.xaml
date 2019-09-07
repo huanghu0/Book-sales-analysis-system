@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.DockWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="DockWindow1" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.RowSpan="2">
+            <TextBox DockPanel.Dock="Top" Height="105" BorderBrush="Black"/>
+            <Image Source="Images/1.png" Width="100"></Image>
+            <ListView BorderBrush="Black"/>
+
+
+
+        </DockPanel>
+
+        <Rectangle Fill="#FF1B9299" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="826.6" Margin="0,0,-33,0"/>
+        <Image Source="images/1.png" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="欢迎使用图书销售分析系统" HorizontalAlignment="Stretch" Margin="225,10,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Print"/>
+    </Grid>
+</Window>

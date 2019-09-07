@@ -1,0 +1,15 @@
+﻿<Page x:Class="WpfApp1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="440" Margin="10,10,0,-0.4" TextWrapping="Wrap" Text="开发人员介绍" VerticalAlignment="Top" Width="790" Background="White"/>
+
+    </Grid>
+</Page>

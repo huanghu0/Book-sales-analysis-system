@@ -1,0 +1,17 @@
+C:\Users\y1395\Desktop\大二暑假实习\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.dll
+C:\Users\y1395\Desktop\大二暑假实习\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.pdb
+C:\Users\y1395\Desktop\大二暑假实习\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.csprojResolveAssemblyReference.cache
+C:\Users\y1395\Desktop\大二暑假实习\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.dll
+C:\Users\y1395\Desktop\大二暑假实习\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.pdb
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.dll
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.pdb
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.dll
+C:\Users\asus\Desktop\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.pdb
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.dll
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\bin\Debug\BookStore.Model.pdb
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.csprojAssemblyReference.cache
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.csproj.CoreCompileInputs.cache
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.dll
+D:\大学课程学习\2019年暑假实习\图书销售分析\图书销售分析·1.3\图书销售分析\WpfApp1\BookStore.Model\obj\Debug\BookStore.Model.pdb

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AA4CEFB-D949-4ACA-A03F-3D2679A1967F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpfApp1</RootNamespace>
+    <AssemblyName>WpfApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BookdeleteWindow1.xaml.cs">
+      <DependentUpon>BookdeleteWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="DataAnalysizeWindow1.xaml.cs">
+      <DependentUpon>DataAnalysizeWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataTypeWindow1.xaml.cs">
+      <DependentUpon>DataTypeWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DingdanWindow1.xaml.cs">
+      <DependentUpon>DingdanWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="fahuowuliuWindow1.xaml.cs">
+      <DependentUpon>fahuowuliuWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GoumaiWindow1.xaml.cs">
+      <DependentUpon>GoumaiWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="indexPage1.xaml.cs">
+      <DependentUpon>indexPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="indexPage2.xaml.cs">
+      <DependentUpon>indexPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IndexWindow1.xaml.cs">
+      <DependentUpon>IndexWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SoftdeleteUsersWindow1.xaml.cs">
+      <DependentUpon>SoftdeleteUsersWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserChangeWindow1.xaml.cs">
+      <DependentUpon>UserChangeWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserWindow1.xaml.cs">
+      <DependentUpon>UserWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WuliugenzongWindow1.xaml.cs">
+      <DependentUpon>WuliugenzongWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="yonghugongnengWindow1.xaml.cs">
+      <DependentUpon>yonghugongnengWindow1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AboutUsWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="adminiRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookAddWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookdeleteWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="chooseUserTypeWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataAnalysizeWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataTypeWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DingdanWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DockWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="fahuowuliuWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GoumaiWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="indexPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="indexPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IndexWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AboutUsWindow1.xaml.cs">
+      <DependentUpon>AboutUsWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="adminiRegister.xaml.cs">
+      <DependentUpon>adminiRegister.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminWindow1.xaml.cs">
+      <DependentUpon>AdminWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BookAddWindow1.xaml.cs">
+      <DependentUpon>BookAddWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BookWindow1.xaml.cs">
+      <DependentUpon>BookWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="chooseUserTypeWindow1.xaml.cs">
+      <DependentUpon>chooseUserTypeWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DockWindow1.xaml.cs">
+      <DependentUpon>DockWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWindow1.xaml.cs">
+      <DependentUpon>LoginWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SoftdeleteUsersWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserChangeWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WuliugenzongWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="yonghugongnengWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page4.xaml.cs">
+      <DependentUpon>Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\C++.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Userhead.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\用户 %281%29.png" />
+    <Resource Include="images\用户 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\地图.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\用户.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\图书管理.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\用户管理 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\放大镜.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\java入门.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\个人中心.png" />
+    <Resource Include="images\数据分析.png" />
+    <Resource Include="images\订货.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\物流.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.BLL\BookStore.BLL.csproj">
+      <Project>{aed62a7d-7b81-4322-bf51-b88d85cf61f2}</Project>
+      <Name>BookStore.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Model\BookStore.Model.csproj">
+      <Project>{39ca18dc-3351-4b7a-90d2-d5819f352584}</Project>
+      <Name>BookStore.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

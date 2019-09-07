@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp1.UserChangeWindow1"
+                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+              d:DesignWidth="833" Height="500"  Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="52*"/>
+            <RowDefinition Height="57*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="170*"/>
+            <ColumnDefinition Width="53*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/background.jpg" />
+        </Grid.Background>
+        <Rectangle Fill="#FF1B9299" HorizontalAlignment="Stretch" Height="120" Stroke="Black" VerticalAlignment="Center"  Grid.ColumnSpan="4" Margin="0,-10,-0.4,0.4"/>
+        <Image Source="Images/1.png" HorizontalAlignment="Left" Height="114" Margin="10,0,0,14" VerticalAlignment="Center" Width="100"/>
+        <Label Content="欢迎使用图书销售分析系统" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="36" FontFamily="Gill Sans MT Ext Condensed Bold" Grid.ColumnSpan="4" Height="48"/>
+        <Image Source="Images/用户.png" HorizontalAlignment="Center" Height="161" Margin="52,18.4,13.6,4.6" VerticalAlignment="Center" Width="136" Grid.Row="2" Grid.RowSpan="5"/>
+        <Button Content="确认修改" HorizontalAlignment="Center" Margin="52.4,16.6,18.2,16.4" VerticalAlignment="Center" Width="75" Click="Button_Click" Grid.Column="1" Grid.Row="7"/>
+        <Button Content="取消" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="75" RenderTransformOrigin="2.627,1.635" Grid.Column="2" Grid.Row="7" Click="ButtonCancel_Click"/>
+        <TextBox Name="Txt_ID" Grid.Column="2" HorizontalAlignment="Stretch" Height="23" Margin="85.8,6.6,83.2,5.6" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch"/>
+        <Label Name="Lab_ID" Content="ID" Grid.Column="1" HorizontalAlignment="Center" Margin="61.4,0,62.2,4.8" Grid.Row="2" VerticalAlignment="Bottom"/>
+        <Label Name="Lab_birthday" Content="生日" Grid.Column="1" HorizontalAlignment="Center" Margin="52.4,5.4,35.2,5.8" Grid.Row="3" VerticalAlignment="Center" Width="58"/>
+        <Label Name="Lab_email" Content="邮箱" Grid.Column="1" HorizontalAlignment="Center" Margin="52.4,5.2,35.2,6" Grid.Row="4" VerticalAlignment="Center" Width="58"/>
+        <Label Name="Lab_type" Content="用户类型" Grid.Column="1" HorizontalAlignment="Center" Margin="27.4,4.2,18.2,6.8" Grid.Row="5" VerticalAlignment="Center" Width="100" RenderTransformOrigin="0.897,0.565"/>
+        <TextBox Name="Txt_birthday" Grid.Column="2" HorizontalAlignment="Stretch" Height="23" Margin="85.8,6.4,83.2,5.8" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
+        <TextBox Name="Txt_email" Grid.Column="2" HorizontalAlignment="Stretch" Height="23" Margin="85.8,6.2,83.2,6" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
+        <TextBox Name="Txt_type" Grid.Column="2" HorizontalAlignment="Stretch" Height="23" Margin="85.8,6,83.2,6.2" Grid.Row="5" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
+
+    </Grid>
+</Window>
+
